@@ -16,19 +16,32 @@ def generate_layout_reference(template_path, output_path="Extendicare_Layout_Ref
     # Load the template
     template_prs = Presentation(template_path)
     
-    # Create new presentation using the template
+    # Create new EMPTY presentation first
+    prs = Presentation()
+    
+    # Copy the slide layouts from the template
+    prs.slide_width = template_prs.slide_width
+    prs.slide_height = template_prs.slide_height
+    
+    # We'll use the template's layouts directly
+    template_layouts = template_prs.slide_layouts
+    
+    print(f"Generating reference deck for {len(template_layouts)} layouts...")
+    
+    # Create a completely new presentation from scratch
+    # First, we need to add the template's master to our new presentation
     prs = Presentation(template_path)
     
-    # Clear any existing slides
-    while len(prs.slides) > 0:
-        xml_slides = prs.slides._sldIdLst
-        slides = list(xml_slides)
-        xml_slides.remove(slides[0])
+    # Remove ALL existing slides from the template
+    # We need to clear the slide ID list properly
+    xml_slides = prs.slides._sldIdLst
+    # Remove all slides by clearing the list
+    slides_to_remove = list(xml_slides)
+    for slide_id in slides_to_remove:
+        xml_slides.remove(slide_id)
     
-    print(f"Generating reference deck for {len(template_prs.slide_layouts)} layouts...")
-    
-    # For each layout, create a slide showing all placeholders
-    for layout_idx, layout in enumerate(template_prs.slide_layouts):
+    # Now add our reference slides
+    for layout_idx, layout in enumerate(template_layouts):
         print(f"Processing Layout {layout_idx}: {layout.name}")
         
         # Add slide using this layout
@@ -75,25 +88,28 @@ def generate_layout_reference(template_path, output_path="Extendicare_Layout_Ref
                 placeholder.text = f"Layout {layout_idx}: {layout.name}\n{current_text}"
                 break
     
-    # Add an index slide at the beginning
-    if len(template_prs.slide_layouts) > 0:
-        # Use the first layout for the index
-        first_slide = prs.slides.add_slide(template_prs.slide_layouts[0])
+    # Add an index slide at the beginning using the title layout
+    if len(template_layouts) > 0:
+        # Create index slide as the first slide
+        index_slide = prs.slides.add_slide(template_layouts[0])
         
         # Find title placeholder
-        for placeholder in first_slide.placeholders:
+        for placeholder in index_slide.placeholders:
             if 'TITLE' in str(placeholder.placeholder_format.type):
                 placeholder.text = "Extendicare Layout Reference Guide"
             elif 'SUBTITLE' in str(placeholder.placeholder_format.type) or 'BODY' in str(placeholder.placeholder_format.type):
                 if hasattr(placeholder, 'text_frame'):
-                    placeholder.text = f"Total Layouts: {len(template_prs.slide_layouts)}\nGenerated: {datetime.now().strftime('%B %d, %Y')}\n\nEach slide shows placeholder names, types, and idx values"
+                    placeholder.text = f"Total Layouts: {len(template_layouts)}\nGenerated: {datetime.now().strftime('%B %d, %Y')}\n\nEach slide shows placeholder names, types, and idx values"
                 break
         
-        # Move the index slide to the beginning
-        xml_slides = prs.slides._sldIdLst
-        slides = list(xml_slides)
-        xml_slides.remove(slides[-1])
-        xml_slides.insert(0, slides[-1])
+        # Move index slide to beginning by reordering the slide ID list
+        slide_id_list = prs.slides._sldIdLst
+        # Get the last added slide (our index)
+        index_slide_id = slide_id_list[-1]
+        # Remove it from the end
+        slide_id_list.remove(index_slide_id)
+        # Insert at beginning
+        slide_id_list.insert(0, index_slide_id)
     
     # Save the reference presentation
     prs.save(output_path)
@@ -102,7 +118,7 @@ def generate_layout_reference(template_path, output_path="Extendicare_Layout_Ref
     
     # Also create a summary JSON with layout info
     layout_summary = []
-    for idx, layout in enumerate(template_prs.slide_layouts):
+    for idx, layout in enumerate(template_layouts):
         layout_info = {
             "index": idx,
             "name": layout.name,

@@ -1,0 +1,1057 @@
+[
+  {
+    "index": 0,
+    "name": "Title Slide (Text Only)",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "CENTER_TITLE (3)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "SUBTITLE (4)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 10,
+        "type": "BODY (2)",
+        "name": "Date",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "name": "Title Slide (Picture Right)",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "CENTER_TITLE (3)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "SUBTITLE (4)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "BODY (2)",
+        "name": "Date",
+        "has_text_frame": true
+      },
+      {
+        "idx": 10,
+        "type": "PICTURE (18)",
+        "name": "Picture",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "Title Slide (Picture Left)",
+    "placeholders": [
+      {
+        "idx": 10,
+        "type": "PICTURE (18)",
+        "name": "Picture",
+        "has_text_frame": true
+      },
+      {
+        "idx": 0,
+        "type": "CENTER_TITLE (3)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "SUBTITLE (4)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "BODY (2)",
+        "name": "Date",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "Divider Slide (Text Only)",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "CENTER_TITLE (3)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "SUBTITLE (4)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder 5",
+        "has_text_frame": true
+      },
+      {
+        "idx": 10,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder 3",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "Divider Slide (Picture Right)",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "CENTER_TITLE (3)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "SUBTITLE (4)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 10,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder 3",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "PICTURE (18)",
+        "name": "Picture",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "1 Column",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "1 Column Subheading",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "2 Column",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "2 Column Subheading",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 15,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 16,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "2 Column Quote Right",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 16,
+        "type": "BODY (2)",
+        "name": "Quote",
+        "has_text_frame": true
+      },
+      {
+        "idx": 15,
+        "type": "BODY (2)",
+        "name": "Name",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "name": "2 Column Picture Right",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 15,
+        "type": "PICTURE (18)",
+        "name": "Picture Placeholder 6",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "name": "2 Columns Pictures",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 17,
+        "type": "PICTURE (18)",
+        "name": "Picture Placeholder 11",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 20,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 20",
+        "has_text_frame": true
+      },
+      {
+        "idx": 18,
+        "type": "PICTURE (18)",
+        "name": "Picture Placeholder 14",
+        "has_text_frame": true
+      },
+      {
+        "idx": 15,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 19,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 18",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "name": "3 Column Subheading",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 15,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 16,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 17,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 18,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "name": "3 Columns Pictures",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 17,
+        "type": "PICTURE (18)",
+        "name": "Picture Placeholder 11",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 20,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 20",
+        "has_text_frame": true
+      },
+      {
+        "idx": 18,
+        "type": "PICTURE (18)",
+        "name": "Picture Placeholder 14",
+        "has_text_frame": true
+      },
+      {
+        "idx": 15,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 19,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 18",
+        "has_text_frame": true
+      },
+      {
+        "idx": 21,
+        "type": "PICTURE (18)",
+        "name": "Picture Placeholder 14",
+        "has_text_frame": true
+      },
+      {
+        "idx": 22,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 23,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 18",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "name": "4 Column Subheading",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 15,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 16,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 17,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 18,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 19,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 20,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "name": "4 Columns Pictures",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 17,
+        "type": "PICTURE (18)",
+        "name": "Picture Placeholder 11",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 20,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 20",
+        "has_text_frame": true
+      },
+      {
+        "idx": 18,
+        "type": "PICTURE (18)",
+        "name": "Picture Placeholder 14",
+        "has_text_frame": true
+      },
+      {
+        "idx": 15,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 19,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 18",
+        "has_text_frame": true
+      },
+      {
+        "idx": 21,
+        "type": "PICTURE (18)",
+        "name": "Picture Placeholder 14",
+        "has_text_frame": true
+      },
+      {
+        "idx": 22,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 23,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 18",
+        "has_text_frame": true
+      },
+      {
+        "idx": 24,
+        "type": "PICTURE (18)",
+        "name": "Picture Placeholder 14",
+        "has_text_frame": true
+      },
+      {
+        "idx": 25,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 26,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 18",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "name": "1 Column Table",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 15,
+        "type": "TABLE (12)",
+        "name": "Table Placeholder 8",
+        "has_text_frame": true
+      },
+      {
+        "idx": 16,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 11",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "name": "1 Column Chart",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 15,
+        "type": "CHART (8)",
+        "name": "Chart Placeholder 8",
+        "has_text_frame": true
+      },
+      {
+        "idx": 16,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 11",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "name": "2 Column Chart",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 15,
+        "type": "CHART (8)",
+        "name": "Chart Placeholder 8",
+        "has_text_frame": true
+      },
+      {
+        "idx": 16,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 11",
+        "has_text_frame": true
+      },
+      {
+        "idx": 17,
+        "type": "BODY (2)",
+        "name": "Heading",
+        "has_text_frame": true
+      },
+      {
+        "idx": 18,
+        "type": "CHART (8)",
+        "name": "Chart Placeholder 8",
+        "has_text_frame": true
+      },
+      {
+        "idx": 19,
+        "type": "BODY (2)",
+        "name": "Text Placeholder 11",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 19,
+    "name": "1 Column Small Text",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "name": "2 Column Small Text",
+    "placeholders": [
+      {
+        "idx": 0,
+        "type": "TITLE (1)",
+        "name": "Title",
+        "has_text_frame": true
+      },
+      {
+        "idx": 13,
+        "type": "BODY (2)",
+        "name": "Subtitle",
+        "has_text_frame": true
+      },
+      {
+        "idx": 1,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 14,
+        "type": "OBJECT (7)",
+        "name": "Content Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 12,
+        "type": "SLIDE_NUMBER (13)",
+        "name": "Slide Number Placeholder",
+        "has_text_frame": true
+      },
+      {
+        "idx": 11,
+        "type": "FOOTER (15)",
+        "name": "Footer Placeholder",
+        "has_text_frame": true
+      }
+    ]
+  },
+  {
+    "index": 21,
+    "name": "Blank Title",
+    "placeholders": []
+  }
+]

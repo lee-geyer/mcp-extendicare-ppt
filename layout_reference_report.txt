@@ -1,0 +1,449 @@
+EXTENDICARE POWERPOINT TEMPLATE LAYOUT REFERENCE
+============================================================
+Generated: June 21, 2025 15:47:12
+Total Layouts: 22
+
+
+LAYOUT 0: Title Slide (Text Only)
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Date (idx: 10)
+
+  CENTER_TITLE Placeholders:
+    - Title (idx: 0)
+
+  SUBTITLE Placeholders:
+    - Subtitle (idx: 1)
+
+
+LAYOUT 1: Title Slide (Picture Right)
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Date (idx: 11)
+
+  CENTER_TITLE Placeholders:
+    - Title (idx: 0)
+
+  PICTURE Placeholders:
+    - Picture (idx: 10)
+
+  SUBTITLE Placeholders:
+    - Subtitle (idx: 1)
+
+
+LAYOUT 2: Title Slide (Picture Left)
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Date (idx: 11)
+
+  CENTER_TITLE Placeholders:
+    - Title (idx: 0)
+
+  PICTURE Placeholders:
+    - Picture (idx: 10)
+
+  SUBTITLE Placeholders:
+    - Subtitle (idx: 1)
+
+
+LAYOUT 3: Divider Slide (Text Only)
+------------------------------------------------------------
+
+  CENTER_TITLE Placeholders:
+    - Title (idx: 0)
+
+  FOOTER Placeholders:
+    - Footer Placeholder 3 (idx: 10)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder 5 (idx: 11)
+
+  SUBTITLE Placeholders:
+    - Subtitle (idx: 1)
+
+
+LAYOUT 4: Divider Slide (Picture Right)
+------------------------------------------------------------
+
+  CENTER_TITLE Placeholders:
+    - Title (idx: 0)
+
+  FOOTER Placeholders:
+    - Footer Placeholder 3 (idx: 10)
+
+  PICTURE Placeholders:
+    - Picture (idx: 12)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 11)
+
+  SUBTITLE Placeholders:
+    - Subtitle (idx: 1)
+
+
+LAYOUT 5: 1 Column
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  OBJECT Placeholders:
+    - Content Placeholder (idx: 1)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 6: 1 Column Subheading
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+    - Heading (idx: 14)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  OBJECT Placeholders:
+    - Content Placeholder (idx: 1)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 7: 2 Column
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  OBJECT Placeholders:
+    - Content Placeholder (idx: 1)
+    - Content Placeholder (idx: 14)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 8: 2 Column Subheading
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+    - Heading (idx: 14)
+    - Heading (idx: 15)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  OBJECT Placeholders:
+    - Content Placeholder (idx: 1)
+    - Content Placeholder (idx: 16)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 9: 2 Column Quote Right
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+    - Quote (idx: 16)
+    - Name (idx: 15)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  OBJECT Placeholders:
+    - Content Placeholder (idx: 1)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 10: 2 Column Picture Right
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  OBJECT Placeholders:
+    - Content Placeholder (idx: 1)
+
+  PICTURE Placeholders:
+    - Picture Placeholder 6 (idx: 15)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 11: 2 Columns Pictures
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+    - Heading (idx: 14)
+    - Text Placeholder 20 (idx: 20)
+    - Heading (idx: 15)
+    - Text Placeholder 18 (idx: 19)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  PICTURE Placeholders:
+    - Picture Placeholder 11 (idx: 17)
+    - Picture Placeholder 14 (idx: 18)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 12: 3 Column Subheading
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+    - Heading (idx: 14)
+    - Heading (idx: 15)
+    - Heading (idx: 17)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  OBJECT Placeholders:
+    - Content Placeholder (idx: 1)
+    - Content Placeholder (idx: 16)
+    - Content Placeholder (idx: 18)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 13: 3 Columns Pictures
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+    - Heading (idx: 14)
+    - Text Placeholder 20 (idx: 20)
+    - Heading (idx: 15)
+    - Text Placeholder 18 (idx: 19)
+    - Heading (idx: 22)
+    - Text Placeholder 18 (idx: 23)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  PICTURE Placeholders:
+    - Picture Placeholder 11 (idx: 17)
+    - Picture Placeholder 14 (idx: 18)
+    - Picture Placeholder 14 (idx: 21)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 14: 4 Column Subheading
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+    - Heading (idx: 14)
+    - Heading (idx: 15)
+    - Heading (idx: 17)
+    - Heading (idx: 19)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  OBJECT Placeholders:
+    - Content Placeholder (idx: 1)
+    - Content Placeholder (idx: 16)
+    - Content Placeholder (idx: 18)
+    - Content Placeholder (idx: 20)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 15: 4 Columns Pictures
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+    - Heading (idx: 14)
+    - Text Placeholder 20 (idx: 20)
+    - Heading (idx: 15)
+    - Text Placeholder 18 (idx: 19)
+    - Heading (idx: 22)
+    - Text Placeholder 18 (idx: 23)
+    - Heading (idx: 25)
+    - Text Placeholder 18 (idx: 26)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  PICTURE Placeholders:
+    - Picture Placeholder 11 (idx: 17)
+    - Picture Placeholder 14 (idx: 18)
+    - Picture Placeholder 14 (idx: 21)
+    - Picture Placeholder 14 (idx: 24)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 16: 1 Column Table
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+    - Heading (idx: 14)
+    - Text Placeholder 11 (idx: 16)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TABLE Placeholders:
+    - Table Placeholder 8 (idx: 15)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 17: 1 Column Chart
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+    - Heading (idx: 14)
+    - Text Placeholder 11 (idx: 16)
+
+  CHART Placeholders:
+    - Chart Placeholder 8 (idx: 15)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 18: 2 Column Chart
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+    - Heading (idx: 14)
+    - Text Placeholder 11 (idx: 16)
+    - Heading (idx: 17)
+    - Text Placeholder 11 (idx: 19)
+
+  CHART Placeholders:
+    - Chart Placeholder 8 (idx: 15)
+    - Chart Placeholder 8 (idx: 18)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 19: 1 Column Small Text
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  OBJECT Placeholders:
+    - Content Placeholder (idx: 1)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 20: 2 Column Small Text
+------------------------------------------------------------
+
+  BODY Placeholders:
+    - Subtitle (idx: 13)
+
+  FOOTER Placeholders:
+    - Footer Placeholder (idx: 11)
+
+  OBJECT Placeholders:
+    - Content Placeholder (idx: 1)
+    - Content Placeholder (idx: 14)
+
+  SLIDE_NUMBER Placeholders:
+    - Slide Number Placeholder (idx: 12)
+
+  TITLE Placeholders:
+    - Title (idx: 0)
+
+
+LAYOUT 21: Blank Title
+------------------------------------------------------------
+
