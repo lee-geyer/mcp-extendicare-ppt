@@ -1,0 +1,61 @@
+{
+  "template_info": {
+    "name": "Extendicare AI-Friendly POC Template",
+    "version": "POC-1.0",
+    "created": "2025-06-21",
+    "description": "Proof of concept demonstrating AI-friendly template principles"
+  },
+  "poc_layouts": {
+    "TitleSlide_ExecutivePresentation": {
+      "purpose": "Executive presentation opening slide with semantic clarity",
+      "placeholders": {
+        "PresentationTitle_Primary": {
+          "semantic_name": "PresentationTitle_Primary",
+          "type": "title",
+          "content_guidelines": "Main presentation title, executive-level language"
+        },
+        "ExecutiveSubtitle_Context": {
+          "semantic_name": "ExecutiveSubtitle_Context",
+          "type": "subtitle",
+          "content_guidelines": "Context, date, or key message for executives"
+        }
+      }
+    },
+    "Dashboard_DualChart_RevenueVsCost": {
+      "purpose": "Financial dashboard comparing revenue and cost metrics",
+      "placeholders": {
+        "DashboardTitle_Primary": {
+          "semantic_name": "DashboardTitle_Primary",
+          "type": "title",
+          "content_guidelines": "Dashboard title describing the financial comparison"
+        },
+        "LeftChart_RevenueGrowth": {
+          "semantic_name": "LeftChart_RevenueGrowth",
+          "type": "chart",
+          "content_guidelines": "Revenue trend chart, typically quarterly or monthly progression"
+        },
+        "RightChart_CostReduction": {
+          "semantic_name": "RightChart_CostReduction",
+          "type": "chart",
+          "content_guidelines": "Cost analysis chart, showing reductions or efficiency gains"
+        },
+        "LeftAnalysis_RevenueInsights": {
+          "semantic_name": "LeftAnalysis_RevenueInsights",
+          "type": "body",
+          "content_guidelines": "Key insights about revenue performance and growth drivers"
+        },
+        "RightAnalysis_CostInsights": {
+          "semantic_name": "RightAnalysis_CostInsights",
+          "type": "body",
+          "content_guidelines": "Analysis of cost reduction initiatives and efficiency improvements"
+        }
+      }
+    }
+  },
+  "ai_benefits_demonstrated": {
+    "semantic_clarity": "Placeholder names clearly indicate their purpose and content type",
+    "intelligent_selection": "AI can match content characteristics to appropriate layouts",
+    "automation_ready": "Rich metadata enables sophisticated automation features",
+    "business_value": "Faster creation, better placement, consistent branding"
+  }
+}
