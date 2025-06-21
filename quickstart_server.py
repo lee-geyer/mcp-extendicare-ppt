@@ -53,6 +53,12 @@ async def call_tool(name: str, arguments: dict):
                 response_text = f"**Extendicare PowerPoint Layouts - {feature}**\n\nFound {len(matching_layouts)} layouts matching '{feature}':\n\n"
                 for layout in matching_layouts:  # Show all matching layouts
                     response_text += f"• **{layout['name']}** (Layout {layout['index']}) - {len(layout['placeholders'])} placeholders\n"
+                    # Show placeholder details
+                    for ph in layout['placeholders']:
+                        # Skip common footer/slide number placeholders for clarity
+                        if ph['type'] not in ['SLIDE_NUMBER (13)', 'FOOTER (15)']:
+                            response_text += f"  - {ph['name']}: {ph['type']}\n"
+                    response_text += "\n"
             else:
                 response_text = f"**Extendicare PowerPoint Templates**\n\nFound {len(layouts)} professional layouts available:\n• Title slides (with/without pictures)\n• Content layouts (1-4 columns)\n• Chart and table layouts\n• Picture-based layouts"
                 
