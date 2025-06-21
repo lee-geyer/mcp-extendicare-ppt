@@ -1,0 +1,304 @@
+{
+  "template_info": {
+    "name": "Extendicare AI-Friendly Template",
+    "version": "1.0",
+    "created": "2025-06-21",
+    "description": "Template designed for AI/MCP automation with semantic placeholder naming"
+  },
+  "layout_categories": {
+    "presentation": ["title_slides", "divider_slides"],
+    "content": ["narrative", "bullet_points", "mixed_content"],
+    "data_visualization": ["charts", "tables", "dashboards", "metrics"],
+    "visual": ["images", "galleries", "quotes"]
+  },
+  "placeholder_types": {
+    "text": {
+      "title": "Main slide titles",
+      "subtitle": "Secondary headings",
+      "body": "Main content areas",
+      "bullets": "Bullet point lists",
+      "quote": "Quotation text",
+      "caption": "Image or chart captions"
+    },
+    "data": {
+      "chart": "Chart and graph areas",
+      "table": "Data table areas", 
+      "metric": "KPI/metric displays",
+      "dashboard": "Multi-metric displays"
+    },
+    "media": {
+      "image": "Picture placeholders",
+      "logo": "Company logos",
+      "icon": "Small icons/graphics"
+    },
+    "metadata": {
+      "date": "Date fields",
+      "footer": "Footer information",
+      "slide_number": "Slide numbering"
+    }
+  },
+  "layouts": {
+    "0": {
+      "semantic_name": "TitleSlide_TextOnly",
+      "category": "presentation",
+      "subcategory": "title_slides",
+      "purpose": "Opening slide with title and subtitle",
+      "use_cases": ["presentation intro", "section headers", "cover slides"],
+      "structure": "single_column",
+      "placeholders": {
+        "Title": {
+          "semantic_name": "PresentationTitle_Primary",
+          "type": "title",
+          "idx": 0,
+          "ppt_type": "CENTER_TITLE (3)",
+          "content_guidelines": "Main presentation title, keep under 60 characters",
+          "required": true
+        },
+        "Subtitle": {
+          "semantic_name": "PresentationSubtitle_Secondary", 
+          "type": "subtitle",
+          "idx": 1,
+          "ppt_type": "SUBTITLE (4)",
+          "content_guidelines": "Supporting subtitle or date, optional",
+          "required": false
+        },
+        "Date": {
+          "semantic_name": "PresentationDate_Footer",
+          "type": "date",
+          "idx": 10,
+          "ppt_type": "BODY (2)",
+          "content_guidelines": "Date or event information",
+          "required": false
+        }
+      }
+    },
+    "5": {
+      "semantic_name": "SingleColumn_Narrative",
+      "category": "content",
+      "subcategory": "narrative",
+      "purpose": "Single column content for detailed explanations",
+      "use_cases": ["executive summary", "detailed explanations", "text-heavy content"],
+      "structure": "single_column",
+      "placeholders": {
+        "Title": {
+          "semantic_name": "SectionTitle_Primary",
+          "type": "title",
+          "idx": 0,
+          "ppt_type": "TITLE (1)",
+          "content_guidelines": "Section or topic title",
+          "required": true
+        },
+        "Content Placeholder 2": {
+          "semantic_name": "NarrativeContent_MainBody",
+          "type": "body",
+          "idx": 1,
+          "ppt_type": "BODY (2)",
+          "content_guidelines": "Main narrative content, paragraphs or bullet points",
+          "required": true
+        }
+      }
+    },
+    "7": {
+      "semantic_name": "TwoColumn_Balanced",
+      "category": "content", 
+      "subcategory": "mixed_content",
+      "purpose": "Two equal columns for balanced content",
+      "use_cases": ["comparison", "before/after", "two topics", "balanced content"],
+      "structure": "two_column_equal",
+      "placeholders": {
+        "Title": {
+          "semantic_name": "SectionTitle_Primary",
+          "type": "title",
+          "idx": 0,
+          "ppt_type": "TITLE (1)",
+          "content_guidelines": "Section title describing both columns",
+          "required": true
+        },
+        "Content Placeholder 2": {
+          "semantic_name": "LeftColumn_Content",
+          "type": "body",
+          "idx": 1,
+          "ppt_type": "BODY (2)",
+          "content_guidelines": "Left column content - first topic or before state",
+          "required": true,
+          "column": "left"
+        },
+        "Content Placeholder 3": {
+          "semantic_name": "RightColumn_Content", 
+          "type": "body",
+          "idx": 2,
+          "ppt_type": "BODY (2)",
+          "content_guidelines": "Right column content - second topic or after state",
+          "required": true,
+          "column": "right"
+        }
+      }
+    },
+    "17": {
+      "semantic_name": "SingleColumn_ChartFocused",
+      "category": "data_visualization",
+      "subcategory": "charts",
+      "purpose": "Chart-focused layout with supporting text",
+      "use_cases": ["financial data", "trend analysis", "KPI presentation", "data stories"],
+      "structure": "chart_with_text",
+      "placeholders": {
+        "Title": {
+          "semantic_name": "ChartTitle_Primary",
+          "type": "title", 
+          "idx": 0,
+          "ppt_type": "TITLE (1)",
+          "content_guidelines": "Chart title describing the data story",
+          "required": true
+        },
+        "Subtitle": {
+          "semantic_name": "ChartSubtitle_Context",
+          "type": "subtitle",
+          "idx": 1,
+          "ppt_type": "BODY (2)",
+          "content_guidelines": "Chart context or time period",
+          "required": false
+        },
+        "Heading": {
+          "semantic_name": "ChartHeading_DataLabel",
+          "type": "body",
+          "idx": 2,
+          "ppt_type": "BODY (2)",
+          "content_guidelines": "Data category or axis label",
+          "required": false
+        },
+        "Chart Placeholder 8": {
+          "semantic_name": "PrimaryChart_MainData",
+          "type": "chart",
+          "idx": 8,
+          "ppt_type": "CHART (8)",
+          "content_guidelines": "Main chart showing primary data visualization",
+          "required": true
+        },
+        "Text Placeholder 11": {
+          "semantic_name": "ChartInsights_Analysis",
+          "type": "body",
+          "idx": 11,
+          "ppt_type": "BODY (2)",
+          "content_guidelines": "Key insights or analysis of the chart data",
+          "required": false
+        }
+      }
+    },
+    "18": {
+      "semantic_name": "TwoColumn_DualCharts",
+      "category": "data_visualization",
+      "subcategory": "dashboards", 
+      "purpose": "Two charts side by side for comparison",
+      "use_cases": ["data comparison", "dashboard view", "multiple metrics", "before/after data"],
+      "structure": "two_column_charts",
+      "placeholders": {
+        "Title": {
+          "semantic_name": "DashboardTitle_Primary",
+          "type": "title",
+          "idx": 0, 
+          "ppt_type": "TITLE (1)",
+          "content_guidelines": "Dashboard title describing both data sets",
+          "required": true
+        },
+        "Subtitle": {
+          "semantic_name": "DashboardSubtitle_Context",
+          "type": "subtitle",
+          "idx": 1,
+          "ppt_type": "BODY (2)",
+          "content_guidelines": "Time period or context for comparison",
+          "required": false
+        },
+        "Heading": {
+          "semantic_name": "LeftChart_Heading",
+          "type": "body",
+          "idx": 2,
+          "ppt_type": "BODY (2)",
+          "content_guidelines": "Left chart category or label", 
+          "required": false,
+          "column": "left"
+        },
+        "Chart Placeholder 8": {
+          "semantic_name": "LeftChart_PrimaryData",
+          "type": "chart",
+          "idx": 8,
+          "ppt_type": "CHART (8)",
+          "content_guidelines": "Left side chart - first data set",
+          "required": true,
+          "column": "left"
+        },
+        "Text Placeholder 11": {
+          "semantic_name": "LeftChart_Analysis",
+          "type": "body",
+          "idx": 11,
+          "ppt_type": "BODY (2)",
+          "content_guidelines": "Analysis or insights for left chart",
+          "required": false,
+          "column": "left"
+        },
+        "Heading 2": {
+          "semantic_name": "RightChart_Heading",
+          "type": "body",
+          "idx": 6,
+          "ppt_type": "BODY (2)", 
+          "content_guidelines": "Right chart category or label",
+          "required": false,
+          "column": "right"
+        },
+        "Chart Placeholder 8 2": {
+          "semantic_name": "RightChart_SecondaryData",
+          "type": "chart",
+          "idx": 12,
+          "ppt_type": "CHART (8)",
+          "content_guidelines": "Right side chart - second data set",
+          "required": true,
+          "column": "right"
+        },
+        "Text Placeholder 11 2": {
+          "semantic_name": "RightChart_Analysis",
+          "type": "body",
+          "idx": 15,
+          "ppt_type": "BODY (2)",
+          "content_guidelines": "Analysis or insights for right chart",
+          "required": false,
+          "column": "right"
+        }
+      }
+    }
+  },
+  "content_to_layout_mapping": {
+    "financial_data": {
+      "single_metric": ["17"],
+      "multiple_metrics": ["18"],
+      "trend_analysis": ["17"],
+      "comparison": ["18"]
+    },
+    "narrative_content": {
+      "introduction": ["0"],
+      "executive_summary": ["5"],
+      "detailed_explanation": ["5"],
+      "comparison": ["7"]
+    },
+    "presentation_structure": {
+      "title_slide": ["0"],
+      "section_break": ["3"],
+      "conclusion": ["5"]
+    }
+  },
+  "ai_guidelines": {
+    "layout_selection": {
+      "data_heavy": "Prefer chart-focused layouts (17, 18)",
+      "text_heavy": "Use narrative layouts (5, 7)",
+      "mixed_content": "Balance with two-column layouts (7)"
+    },
+    "content_placement": {
+      "charts": "Always use dedicated chart placeholders when available",
+      "key_insights": "Place in analysis placeholders near related charts",
+      "comparisons": "Use column-aware layouts with left/right designation"
+    },
+    "naming_conventions": {
+      "semantic_names": "Use purpose_context_specificity pattern",
+      "column_awareness": "Include column designation for multi-column layouts",
+      "content_hints": "Include content type in placeholder names"
+    }
+  }
+}
