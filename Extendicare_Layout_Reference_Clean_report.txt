@@ -1,0 +1,223 @@
+EXTENDICARE LAYOUT REFERENCE
+============================================================
+
+LAYOUT 0: Title Slide (Text Only)
+------------------------------------------------------------
+  Title                          Type: CENTER_TITLE (3)     idx: 0
+  Subtitle                       Type: SUBTITLE (4)         idx: 1
+  Date                           Type: BODY (2)             idx: 10
+
+LAYOUT 1: Title Slide (Picture Right)
+------------------------------------------------------------
+  Title                          Type: CENTER_TITLE (3)     idx: 0
+  Subtitle                       Type: SUBTITLE (4)         idx: 1
+  Date                           Type: BODY (2)             idx: 11
+  Picture                        Type: PICTURE (18)         idx: 10
+
+LAYOUT 2: Title Slide (Picture Left)
+------------------------------------------------------------
+  Picture                        Type: PICTURE (18)         idx: 10
+  Title                          Type: CENTER_TITLE (3)     idx: 0
+  Subtitle                       Type: SUBTITLE (4)         idx: 1
+  Date                           Type: BODY (2)             idx: 11
+
+LAYOUT 3: Divider Slide (Text Only)
+------------------------------------------------------------
+  Title                          Type: CENTER_TITLE (3)     idx: 0
+  Subtitle                       Type: SUBTITLE (4)         idx: 1
+  Slide Number Placeholder 5     Type: SLIDE_NUMBER (13)    idx: 11
+  Footer Placeholder 3           Type: FOOTER (15)          idx: 10
+
+LAYOUT 4: Divider Slide (Picture Right)
+------------------------------------------------------------
+  Title                          Type: CENTER_TITLE (3)     idx: 0
+  Subtitle                       Type: SUBTITLE (4)         idx: 1
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 11
+  Footer Placeholder 3           Type: FOOTER (15)          idx: 10
+  Picture                        Type: PICTURE (18)         idx: 12
+
+LAYOUT 5: 1 Column
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Content Placeholder            Type: OBJECT (7)           idx: 1
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 6: 1 Column Subheading
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Heading                        Type: BODY (2)             idx: 14
+  Content Placeholder            Type: OBJECT (7)           idx: 1
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 7: 2 Column
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Content Placeholder            Type: OBJECT (7)           idx: 1
+  Content Placeholder            Type: OBJECT (7)           idx: 14
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 8: 2 Column Subheading
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Heading                        Type: BODY (2)             idx: 14
+  Content Placeholder            Type: OBJECT (7)           idx: 1
+  Heading                        Type: BODY (2)             idx: 15
+  Content Placeholder            Type: OBJECT (7)           idx: 16
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 9: 2 Column Quote Right
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Content Placeholder            Type: OBJECT (7)           idx: 1
+  Quote                          Type: BODY (2)             idx: 16
+  Name                           Type: BODY (2)             idx: 15
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 10: 2 Column Picture Right
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Content Placeholder            Type: OBJECT (7)           idx: 1
+  Picture Placeholder 6          Type: PICTURE (18)         idx: 15
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 11: 2 Columns Pictures
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Picture Placeholder 11         Type: PICTURE (18)         idx: 17
+  Heading                        Type: BODY (2)             idx: 14
+  Text Placeholder 20            Type: BODY (2)             idx: 20
+  Picture Placeholder 14         Type: PICTURE (18)         idx: 18
+  Heading                        Type: BODY (2)             idx: 15
+  Text Placeholder 18            Type: BODY (2)             idx: 19
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 12: 3 Column Subheading
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Heading                        Type: BODY (2)             idx: 14
+  Content Placeholder            Type: OBJECT (7)           idx: 1
+  Heading                        Type: BODY (2)             idx: 15
+  Content Placeholder            Type: OBJECT (7)           idx: 16
+  Heading                        Type: BODY (2)             idx: 17
+  Content Placeholder            Type: OBJECT (7)           idx: 18
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 13: 3 Columns Pictures
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Picture Placeholder 11         Type: PICTURE (18)         idx: 17
+  Heading                        Type: BODY (2)             idx: 14
+  Text Placeholder 20            Type: BODY (2)             idx: 20
+  Picture Placeholder 14         Type: PICTURE (18)         idx: 18
+  Heading                        Type: BODY (2)             idx: 15
+  Text Placeholder 18            Type: BODY (2)             idx: 19
+  Picture Placeholder 14         Type: PICTURE (18)         idx: 21
+  Heading                        Type: BODY (2)             idx: 22
+  Text Placeholder 18            Type: BODY (2)             idx: 23
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 14: 4 Column Subheading
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Heading                        Type: BODY (2)             idx: 14
+  Content Placeholder            Type: OBJECT (7)           idx: 1
+  Heading                        Type: BODY (2)             idx: 15
+  Content Placeholder            Type: OBJECT (7)           idx: 16
+  Heading                        Type: BODY (2)             idx: 17
+  Content Placeholder            Type: OBJECT (7)           idx: 18
+  Heading                        Type: BODY (2)             idx: 19
+  Content Placeholder            Type: OBJECT (7)           idx: 20
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 15: 4 Columns Pictures
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Picture Placeholder 11         Type: PICTURE (18)         idx: 17
+  Heading                        Type: BODY (2)             idx: 14
+  Text Placeholder 20            Type: BODY (2)             idx: 20
+  Picture Placeholder 14         Type: PICTURE (18)         idx: 18
+  Heading                        Type: BODY (2)             idx: 15
+  Text Placeholder 18            Type: BODY (2)             idx: 19
+  Picture Placeholder 14         Type: PICTURE (18)         idx: 21
+  Heading                        Type: BODY (2)             idx: 22
+  Text Placeholder 18            Type: BODY (2)             idx: 23
+  Picture Placeholder 14         Type: PICTURE (18)         idx: 24
+  Heading                        Type: BODY (2)             idx: 25
+  Text Placeholder 18            Type: BODY (2)             idx: 26
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 16: 1 Column Table
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Heading                        Type: BODY (2)             idx: 14
+  Table Placeholder 8            Type: TABLE (12)           idx: 15
+  Text Placeholder 11            Type: BODY (2)             idx: 16
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 17: 1 Column Chart
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Heading                        Type: BODY (2)             idx: 14
+  Chart Placeholder 8            Type: CHART (8)            idx: 15
+  Text Placeholder 11            Type: BODY (2)             idx: 16
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 18: 2 Column Chart
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Heading                        Type: BODY (2)             idx: 14
+  Chart Placeholder 8            Type: CHART (8)            idx: 15
+  Text Placeholder 11            Type: BODY (2)             idx: 16
+  Heading                        Type: BODY (2)             idx: 17
+  Chart Placeholder 8            Type: CHART (8)            idx: 18
+  Text Placeholder 11            Type: BODY (2)             idx: 19
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 19: 1 Column Small Text
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Content Placeholder            Type: OBJECT (7)           idx: 1
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 20: 2 Column Small Text
+------------------------------------------------------------
+  Title                          Type: TITLE (1)            idx: 0
+  Subtitle                       Type: BODY (2)             idx: 13
+  Content Placeholder            Type: OBJECT (7)           idx: 1
+  Content Placeholder            Type: OBJECT (7)           idx: 14
+  Slide Number Placeholder       Type: SLIDE_NUMBER (13)    idx: 12
+  Footer Placeholder             Type: FOOTER (15)          idx: 11
+
+LAYOUT 21: Blank Title
+------------------------------------------------------------
+
