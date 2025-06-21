@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "extendicare-ppt": {
+      "command": "uv",
+      "args": ["run", "python", "/Users/leegeyer/Library/CloudStorage/OneDrive-Extendicare(Canada)Inc/Investor Quarterly Reporting/mcp-extendicare-ppt/mcp_server.py"],
+      "env": {
+        "PYTHONPATH": "/Users/leegeyer/Library/CloudStorage/OneDrive-Extendicare(Canada)Inc/Investor Quarterly Reporting/mcp-extendicare-ppt"
+      }
+    }
+  }
+}
