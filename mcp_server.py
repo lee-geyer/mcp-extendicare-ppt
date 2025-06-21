@@ -4,13 +4,10 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional
 from datetime import datetime
 
-from mcp import Protocol, Server
+from mcp.server import Server
 from mcp.types import (
-    GetServerCapabilitiesResult,
     CallToolResult,
-    Tool,
-    Parameter,
-    UNSET
+    Tool
 )
 from pydantic import BaseModel, Field
 from pptx import Presentation
@@ -284,12 +281,12 @@ class ExtendicarePPTServer:
 server = Server("mcp-extendicare-ppt")
 
 @server.list_tools()
-async def list_tools() -> List[Tool]:
+async def list_tools():
     return [
         Tool(
             name="query_layouts",
             description="Search for PowerPoint layouts by features",
-            schema={
+            inputSchema={
                 "type": "object",
                 "properties": {
                     "features": {
@@ -303,7 +300,7 @@ async def list_tools() -> List[Tool]:
         Tool(
             name="get_layout_details",
             description="Get detailed information about a specific layout",
-            schema={
+            inputSchema={
                 "type": "object",
                 "properties": {
                     "layout_index": {
@@ -317,7 +314,7 @@ async def list_tools() -> List[Tool]:
         Tool(
             name="create_presentation",
             description="Create a PowerPoint presentation with Extendicare branding",
-            schema={
+            inputSchema={
                 "type": "object",
                 "properties": {
                     "spec": {
@@ -334,53 +331,50 @@ async def list_tools() -> List[Tool]:
 ppt_server = None
 
 @server.call_tool()
-async def call_tool(name: str, arguments: Any) -> CallToolResult:
+async def call_tool(name: str, arguments: Any):
     global ppt_server
     
-    if name == "query_layouts":
-        features = arguments.get("features")
-        results = await ppt_server.query_layouts(features)
-        return CallToolResult(
-            result=results,
-            isError=False
-        )
+    try:
+        if name == "query_layouts":
+            features = arguments.get("features")
+            results = await ppt_server.query_layouts(features)
+            return results
+        
+        elif name == "get_layout_details":
+            layout_index = arguments["layout_index"]
+            details = await ppt_server.get_layout_details(layout_index)
+            return details
+        
+        elif name == "create_presentation":
+            spec = arguments["spec"]
+            output_path = await ppt_server.create_presentation(spec)
+            return {"success": True, "path": output_path}
+        
+        else:
+            raise ValueError(f"Unknown tool: {name}")
     
-    elif name == "get_layout_details":
-        layout_index = arguments["layout_index"]
-        details = await ppt_server.get_layout_details(layout_index)
-        return CallToolResult(
-            result=details,
-            isError=False
-        )
-    
-    elif name == "create_presentation":
-        spec = arguments["spec"]
-        output_path = await ppt_server.create_presentation(spec)
-        return CallToolResult(
-            result={"success": True, "path": output_path},
-            isError=False
-        )
-    
-    else:
-        return CallToolResult(
-            result={"error": f"Unknown tool: {name}"},
-            isError=True
-        )
+    except Exception as e:
+        raise RuntimeError(f"Error executing {name}: {str(e)}")
 
 async def main():
+    from mcp.server.stdio import stdio_server
     global ppt_server
     
     # Load config
     config = Config(
-        template_path="../ExtendicareTemplate.pptx",  # UPDATE THIS
+        template_path="../ExtendicareTemplate.pptx",
         output_dir="."
     )
     
     ppt_server = ExtendicarePPTServer(config)
     
-    # Run the server
-    async with server:
-        await server.run()
+    # Run the server via stdio
+    async with stdio_server() as (read_stream, write_stream):
+        await server.run(
+            read_stream,
+            write_stream,
+            server.create_initialization_options()
+        )
 
 if __name__ == "__main__":
     asyncio.run(main())
