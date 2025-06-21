@@ -51,11 +51,8 @@ async def call_tool(name: str, arguments: dict):
                         matching_layouts.append(layout)
                 
                 response_text = f"**Extendicare PowerPoint Layouts - {feature}**\n\nFound {len(matching_layouts)} layouts matching '{feature}':\n\n"
-                for layout in matching_layouts[:5]:  # Show first 5
+                for layout in matching_layouts:  # Show all matching layouts
                     response_text += f"• **{layout['name']}** (Layout {layout['index']}) - {len(layout['placeholders'])} placeholders\n"
-                
-                if len(matching_layouts) > 5:
-                    response_text += f"\n... and {len(matching_layouts) - 5} more layouts"
             else:
                 response_text = f"**Extendicare PowerPoint Templates**\n\nFound {len(layouts)} professional layouts available:\n• Title slides (with/without pictures)\n• Content layouts (1-4 columns)\n• Chart and table layouts\n• Picture-based layouts"
                 
